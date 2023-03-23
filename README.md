@@ -14,6 +14,7 @@
 содержатся в IaC/current_adresses.out
 ```
   $ ssh X.X.X.X
+  $ sudo apt update
   $ sudo apt install ansible git pip -y
   $ sudo pip install ruamel.yaml
   $ git clone https://github.com/kubernetes-sigs/kubespray.git
