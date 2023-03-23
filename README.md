@@ -14,7 +14,8 @@
 содержатся в IaC/current_adresses.out
 ```
   $ ssh X.X.X.X
-  $ sudo apt install ansible git -y
+  $ sudo apt install ansible git pip -y
+  $ sudo pip install ruamel.yaml
   $ git clone https://github.com/kubernetes-sigs/kubespray.git
 ``` 
 - Разворачиваем кластер Kubernetes на рабочих машинах используя
