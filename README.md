@@ -15,8 +15,8 @@
 ```
   $ ssh X.X.X.X
   $ sudo apt update
-  $ sudo apt install ansible git pip -y
-  $ sudo pip install ruamel.yaml
+  $ sudo apt install git pip -y
+  $ sudo pip install ruamel.yaml netaddr
   $ git clone https://github.com/kubernetes-sigs/kubespray.git
 ``` 
 - Разворачиваем кластер Kubernetes на рабочих машинах используя
