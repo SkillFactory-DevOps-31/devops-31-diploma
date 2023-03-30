@@ -1,3 +1,7 @@
 [submodule "kubespray"]
 	path = kubespray
 	url = https://github.com/kubernetes-sigs/kubespray.git
+
+[submodule "django-pg"]
+	path = django-pg
+	url = https://github.com/kodxxl/django-pg-docker-tutorial
