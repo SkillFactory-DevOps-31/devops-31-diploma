@@ -4,3 +4,6 @@
 [submodule "django-pg-docker-tutorial"]
 	path = django-pg-docker-tutorial
 	url = https://github.com/kodxxl/django-pg-docker-tutorial.git
+[submodule "shellscripts"]
+	path = shellscripts
+	url = git@github.com:kodxxl/devops-31-shellscripts.git
