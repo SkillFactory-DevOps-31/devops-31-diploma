@@ -3,7 +3,7 @@
 Инструкция по развертыванию инфраструктуры.
 ---
 
-- Войдите в каталог IaC/terraform/
+- Войдите в каталог ./IaC-terraform/
 ```
   $ terraform init
   $ terraform plan -out=tfplan -input=false
