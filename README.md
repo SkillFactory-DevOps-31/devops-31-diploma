@@ -9,9 +9,9 @@
   $ terraform plan -out=tfplan -input=false
   $ terraform apply -input=false tfplan
 ```
-- Затем, используя ключ, переданный через IaC/terraform/users.yaml
+- Затем, используя ключ, переданный через ./IaC-terraform/users.yaml
 подключиться по ssh к NAT-устройству. Все действующие IP-адреса 
-содержатся в IaC/current_adresses.out
+содержатся в ./current_adresses.out
 ```
   $ ssh X.X.X.X
   $ sudo apt update
