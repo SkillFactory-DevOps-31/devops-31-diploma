@@ -7,3 +7,6 @@
 [submodule "shellscripts"]
 	path = shellscripts
 	url = git@github.com:kodxxl/devops-31-shellscripts.git
+[submodule "IaC-terraform"]
+	path = IaC-terraform
+	url = git@github.com:kodxxl/IaC-terraform.git
