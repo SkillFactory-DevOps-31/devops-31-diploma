@@ -28,3 +28,4 @@
   $ CONFIG_FILE=inventory/diplomacluster/hosts.yaml python3 contrib/inventory_builder/inventory.py ${IPS[@]}
   $ ansible-playbook -i inventory/diplomacluster/hosts.yaml  --become --become-user=root cluster.yml
 ```
+- Делаем проброс портов на Kubernetes API сервер. Для этого клонируем на NAT-инстанс https://github.com/kodxxl/devops-31-shellscripts.git редактируем и запускаем firewall-forward-to-kapi.sh
