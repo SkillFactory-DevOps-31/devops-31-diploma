@@ -33,4 +33,12 @@
 Инструкция по деплою приложения в кластер Kubernetes
 ---
 
-- 1
+- На узле созданного кластера запускаем скрипт create_role.sh из репозитория https://github.com/kodxxl/devops-31-shellscripts.git
+- Создаем GitHub Actions Secrets для репозитория 
+```
+CLIENT_CERT_DATA - Открытый сертификат клиента Kubernetes
+CLIENT_KEY_DATA - Закрытый ключ клиента Kubernetes
+CLUSTER_CA - Сертификат кластера
+```
+- Для рапуска HELM-чарта Postgress необходимо отредактировать values.yaml в папке helm-charts/postgresql/ и создать коммит в ветку pg-deploy
+- Для развертывания самого приложения отредактировать манифесты в helm-charts/app/ и сделать коммит в ветку app-deploy
