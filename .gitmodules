@@ -10,3 +10,6 @@
 [submodule "IaC-terraform"]
 	path = IaC-terraform
 	url = git@github.com:kodxxl/IaC-terraform.git
+[submodule "django-pg-monitoring"]
+	path = django-pg-monitoring
+	url = git@github.com:kodxxl/django-pg-monitoring.git
